@@ -4,12 +4,6 @@ import Rect from './Rect';
 
 class App extends Component {
 
-  // constructor(props) {
-  //   super();
-  //   this.title = props.title;
-  //   this.message = props.message;
-  // }
-
   render() {
     return (
       <div>
