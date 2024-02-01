@@ -12,7 +12,7 @@ class Message extends Component {
         let arr = content.split('。')
         let arr2 = []
         for(let i=0; i < arr.length; i++) {
-            if(arr[i].trim() != '') {
+            if(arr[i].trim() !== '') {
                 arr2.push(arr[i])
             }
         }

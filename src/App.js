@@ -1,6 +1,7 @@
 import './App.css';
 import { Component } from 'react';
 import Message from './component/Message';
+import Form from './component/Form';
 
 class App extends Component {
 
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
         <h1 className="bg-primary text-white display-4">React</h1>
         <div className="container">
+          <Form/>
           <Message title="Children!">
             これはコンポーネント内のコンテンツです。
             丸でテキストを分割し、リストにして表示します。
