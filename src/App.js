@@ -1,17 +1,14 @@
 import './App.css';
-import React, { Component } from 'react';
-import Provider from './component/Provider';
-import Theme from './component/Theme';
+import React from 'react';
+import Count from './component-2/Count';
 
-class App extends Component {
+function App() {
 
-  render() {
-    return (
-      <div>
-        <Theme />
-      </div>
-    )
-  }
+  return (
+    <div>
+      <Count />
+    </div>
+  )
 }
 
 export default App;
