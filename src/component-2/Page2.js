@@ -13,6 +13,7 @@ function Page2() {
                 <AlertMessage alert={alert} setAlert={setAlert} />
                 <CardMessage card={card} setCard={setCard} />
                 <hr />
+                
                 <div className="text-right">
                     <p>{alert}</p>
                     <p>{card}</p>
