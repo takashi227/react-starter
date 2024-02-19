@@ -12,8 +12,9 @@ function Page2() {
                 <h4 className="my-3">Hooks sample</h4>
                 <AlertMessage alert={alert} setAlert={setAlert} />
                 <CardMessage card={card} setCard={setCard} />
-                <hr />
                 
+                <hr />
+
                 <div className="text-right">
                     <p>{alert}</p>
                     <p>{card}</p>
