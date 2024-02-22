@@ -21,7 +21,6 @@ function Effect() {
         for(let i=0; i<=val; i++) {
             total+=i
         }
-        
         setMsg("total: " + total + ".")
     })
 
